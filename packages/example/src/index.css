@@ -1,0 +1,29 @@
+@import url('https://rsms.me/inter/inter.css');
+body,
+button {
+  font-family: 'Inter', sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  body,
+  button {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+body {
+  margin: 0;
+  background: #050505;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+button {
+  margin: 20px;
+  font-size: 24px;
+}

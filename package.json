@@ -1,0 +1,12 @@
+{
+  "name": "redit-worskpace",
+  "private": "true",
+  "scripts": {
+    "test": "yarn lib:build && yarn examples:test",
+    "lib:build": "cd packages/redit && yarn build",
+    "examples:test": "cd packages/example && yarn test"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
